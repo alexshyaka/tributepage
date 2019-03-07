@@ -1,0 +1,26 @@
+body,html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header{
+    background-image: url("images/adventure.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.social-icons{
+    font-size: 2rem;
+    padding: inherit;
+    color: black;
+}
+#main .heading-one{
+    text-align: center;
+    
+}

@@ -3,7 +3,7 @@ body,html{
 }
 
 #header{
-    background-image: url("images/adventure.jpg");
+    background-image: url("images/coding-class2.jpg");
     background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,22 +15,62 @@ body,html{
     font-size: 24px;
     font-weight: bold;
 }
-.social-icons{
+.social-icons {
+    float: right;
     font-size: 2rem;
     padding: inherit;
-    color: black;
+    color: rgb(102, 81, 81);
+    margin-top: -20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(102, 81, 81);
 }
 #main .heading-one{
     text-align: center;
     
 }
-#img-div {
- width: 100%;
- /* display: inline-block; */
+#img-caption {
+ /* width: 100%; */
+ font-size: 80%;
+ text-align: center;
 }
 #image{
     max-width: 100%;
     display: block;
     height: 400px;
     margin: auto;
+    padding-bottom: 0.1rem;
+    border-radius: 20%;
+}
+#tribute-info ul{
+    width: 900px;;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 20px;
+    line-height: 2rem;
+    background-color: gray;
+}
+#headline{
+    margin-top: 20px;
+    text-align: center;
+}
+.heading-one{
+    background-color: antiquewhite;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+}
+
+footer{
+    height: 150px;
+    background-color: black;
+    color: white;
+}
+footer #social-icons{
+    padding: 30px 10px 0 10px;
+    /* text-align: center; */
+}
+
+footer #tribute-link{
+    text-align: center;
 }
